@@ -24,7 +24,7 @@
             <h2>Tentang Saya</h2>
 
             <img 
-                <img src="foto.jpg" alt="Foto Safa" width="200">
+                <img src="angel.jpeg" alt="Foto Safa" width="180">
 
             <p>
                 Nama saya Safa anjelina. Saya adalah mahasiswa UNIPDU
@@ -32,8 +32,6 @@
                 mencoba hal-hal baru yang belum pernah saya lakukan sebelumnya.
             </p>
 
-            <p>
-                Saya suka jajan, suka jalan-jalan, suka main bersama teman saya
             </p>
         </section>
 
@@ -41,7 +39,7 @@
             <h2>Keahlian</h2>
 
             <ul>
-                <li>Dapat Bekerja sama dalam tim</li>
+                <li>Bisa Bekerja sama dalam tim</li>
                 <li>Mampu belajar hal baru</li>
             </ul>
         </section>
@@ -50,9 +48,8 @@
             <h2>Fakta Menarik Tentang Saya</h2>
 
             <ul>
-                <li>Suka mempelajari hal baru.</li>
-                <li>Suka mencoba makanan baru..</li>
-                <li>Lebih mudah memahami sesuatu dengan mencoba langsung.</li>
+                <li>Suka jajan dan senang jalan-jalan.</li>
+                <li>Suka bermain efef.</li>
             </ul>
         </aside>
 
@@ -77,4 +74,50 @@
     </footer>
 
 </body>
+</html>
+
+
+<section id="musik">
+    <h2>Musik Favorit Saya</h2>
+
+    <audio controls>
+        <source src="audio.mp3.mpeg" type="audio/mpeg">
+        Browser kamu tidak mendukung pemutar audio.
+    </audio>
+</section>
+
+    <h2>Buku Tamu/Kirim Pesan</h2>        
+            <form action="#" method="post">
+                <p>
+                    <label for="cari">Cari Topik / Pesan Sebelumnya:</label><br>
+                    <input type="search" id="cari" name="cari" placeholder="Ketik kata kunci...">
+                </p>
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                </p>
+                <p>
+                    <label for="keperluan">Keperluan:</label><br>     
+                    <select id="keperluan" name="keperluan">
+                        <option value="silaturahmi">Silaturahmi / Menyapa</option>
+                        <option value="pertanyaan">Pertanyaan Seputar Tempat Kerja / Kuliah</option>
+                        <option value="kerjasama">Ajakan Kerjasama</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tuliskan pesan kamu di sini..." required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Kirim Pesan</button>
+                    <button type="reset">Batal</button>
+                </p>
+            </form>
+        </section>
+    </main>
 </html>
