@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color:blue;
+    background-color:beige;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color:blue;
+    color: beige;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+nav {
+    background-color: beige;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid beige;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px black(100, 60, 120, 0.08);
+}
+
+nav a {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: beige;
+    padding: 22px;
+    margin-bottom: 20px;
+    border: 1px solid beige;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(100, 60, 120, 0.06);
+}
+
+section h2 {
+    color: blue;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+
+#tentang img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border: 4px solid beige;
+    border-radius: 15px;
+}
+
+#keahlian li {
+    margin-bottom: 8px;
+}
+
+aside {
+    background-color: beige;
+    color: blue;
+    padding: 22px;
+    margin-bottom: 20px;
+    border: 1px solid beige;
+    border-radius: 15px;
+}
+
+aside h2 {
+    color: blue;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+#musik,
+#buku-tamu {
+    background-color: beige;
+}
+
+input,
+select,
+textarea {
+    max-width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: blue;
+    background-color: beige;
+    border: 1px solid beige;
+    border-radius: 7px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid blue;
+}
+
+button {
+    background-color: blue;
+    color: beige;
+    padding: 10px 16px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: blue;
+    color: beige;
+    text-align: center;
+    padding: 22px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+footer a {
+    color: beige;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section,
+    aside {
+        padding: 15px;
+    }
+}
